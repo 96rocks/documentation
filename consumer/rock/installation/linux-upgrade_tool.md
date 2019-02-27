@@ -76,7 +76,7 @@ It contains the following partitions:
 
 - power on rock960
 - plug the rock960 to Linux desktop with USB type A to type C cable
-- press and hold the maskrom key, then short press reset key
+- press and hold the maskrom key, then short press reset key (alternatively, reboot the device to loader mode `adb reboot bootloader` then use the upgrade_tool to reset the device into maskrom mode `upgrade_tool rd 3`).
 
 On the host PC, `lsusb` should show the following VID/PID if the board is in maskrom mode: `Bus 003 Device 061: ID 2207:0011`
 
